@@ -142,4 +142,4 @@ Lighthouse (mobile, production build), measured on the development machine:
 
 ## Deploying
 
-Works on Vercel, Netlify or any Node 20.9+ host (`npm run build && npm start`). Set `NEXT_PUBLIC_SITE_URL` (and optionally `NEXT_PUBLIC_WHATSAPP_NUMBER`, `NEXT_PUBLIC_MAP_EMBED_URL`) in the host's environment settings.
+Works on Vercel, Netlify or any Node 20.9+ host (`npm run build && npm start`). Set `NEXT_PUBLIC_SITE_URL` (and optionally `NEXT_PUBLIC_WHATSAPP_NUMBER`, `NEXT_PUBLIC_MAP_EMBED_URL`) in the host's environment settings. The site URL can be written with or without `https://`; if it is missing or invalid, the build uses Vercel's production domain, then `https://kibandaski.co.ke`.
