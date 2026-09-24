@@ -1,6 +1,3 @@
-# Kibandaski
-
-Website for Kibandaski, a Kenyan restaurant. Customers browse the menu, build an order, and send it on WhatsApp (**0769 622 996**). They don't need an account.
 
 Built with Next.js 16 (App Router), TypeScript, Tailwind CSS v4. Every page is statically generated.
 
